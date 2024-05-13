@@ -1,4 +1,4 @@
-def SumaEjercicio1():
+def SumaEj1():
     n1 = input("Ingrese un número.")
     n1 = int(n1)
     n2 = input("Ingrese otro número.")
@@ -8,9 +8,9 @@ def SumaEjercicio1():
 
     print("El resultado es: ", resultado)
 
-#SumaEjercicio1()  
+#SumaEj1()  
 
-def SumaEjercicio2():
+def SumaEj2():
     n1 = int(input("Ingrese un número."))
     n2 = int(input("Ingrese otro número."))
     n3 = int(input("Ingrese otro número."))
@@ -20,26 +20,26 @@ def SumaEjercicio2():
 
     print("El resultado es: "+ resultado)
 
-#SumaEjercicio2()
+#SumaEj2()
 
-def SuperficieEjercicio3():
+def SuperficieEj3():
     ladoA = int(input("Cuánto mide el lado a?"))
     ladoB = int(input("Cuánto mide el lado b?"))
 
     superficie = ladoA * ladoB
 
     print("La superficie es: "+ superficie)
-#SuperficieEjercicio3()
+#SuperficieEj3()
 
-def SuperficieEjercicio4():
+def Ej4():
     ladoA = float(input("Inserte un número con decimales."))
 
     superficie = ladoA * ladoA
 
     print("La superficie es: "+ superficie)
-#SuperficieEjercicio4()
+#Ej4()
 
-def ConversionEjercicio5():
+def ConversionEj5():
     hora = int(input("Ingrese la hora."))
     minutos = int(input("Ingrese los minutos."))
     segundos = int(input("Ingrese los segundos."))
@@ -50,18 +50,18 @@ def ConversionEjercicio5():
     EnSegundos = resultado1 + resultado2 + segundos
 
     print("El resultado expresado en segundos es: "+ EnSegundos)
-#ConversionEjercicio5()
+#ConversionEj5()
 
-def Ejercicio6():
+def Ej6():
     ladoA = int(input("Cuánto mide el lado a?"))
     ladoB = int(input("Cuánto mide el lado b?"))
 
 
     suptriangulo = ladoA * ladoB /2
     print("La superficie del triángulo es: "+suptriangulo)
-#Ejercicio6()
+#Ej6()
 
-def Ejercicio7():
+def Ej7():
     n1 = input("Ingrese un número.")
     n1 = int(n1)
     n2 = input("Ingrese un segundo número.")
@@ -80,9 +80,9 @@ def Ejercicio7():
     promedio = total/6
 
     print("El promedio es: "+ promedio)
-#Ejercicio7()
+#Ej7()
 
-def Ejercicio8():
+def Ej8():
     n1 = int(input("Ingrese un número."))
     n2 = int(input("Ingrese otro número."))
 
@@ -90,9 +90,9 @@ def Ejercicio8():
     porcentaje = n2 / NUM1
 
     print("El promedio es:%", porcentaje)
-#Ejercicio8()
+#Ej8()
 
-def Ejercicio9():
+def Ej9():
     fecha = int(input("Ingrese la fecha en formato DDMMAAAA."))
 
     dia = fecha//1000000
@@ -102,9 +102,9 @@ def Ejercicio9():
     print("Día: ", dia)
     print("Mes: ", mes)
     print("Año: ", año)
-#Ejercicio9()
+#Ej9()
 
-def Ejercicio10():
+def Ej10():
     a = int(input("Ingrese la calificación de exámen parcial."))
     b = int(input("Ingrese la calificación por TPs."))
     c = int(input("Ingrese la calificación del exámen integrador."))
@@ -115,9 +115,9 @@ def Ejercicio10():
 
     notafinal = calificacionA + calificacionB + calificacionC
     print("El promedio del estudiante es: "+ notafinal)
-#Ejercicio10
+#Ej10
 
-def Ejercicio11():
+def Ej11():
 
     autos = []
     inputUser = ""
